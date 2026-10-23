@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  padding: 0px 22px;
+}
+
+h5 {
+  font-size: 1.4rem;
+  margin-left: 12px;
+}
+
+.input_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.name_box,
+.profession_box,
+.age_box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: none;
+  margin-top: 7px;
+  padding: 8px 12px;
+}
+
+input {
+  width: 250px;
+  padding: 8px 12px;
+  background-color: black;
+  margin-top: 7px;
+  margin-bottom: 16px;
+  border: 1px solid white;
+  color: white;
+}
+
+.btn {
+  margin-left: 12px;
+  width: 100px;
+  padding: 8px 12px;
+  margin-bottom: 16px;
+}
+
+.msg {
+  margin: 12px 12px;
+  font-size: 1.2rem;
+}
+
+.added_emp {
+  margin: 12px 12px;
+  font-size: 1.2rem;
+}
+
+.list_container {
+  width: 500px;
+}
+
+.list_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.paraContainer {
+  display: flex;
+  width: 75%;
+  margin-bottom: 9px;
+  justify-content: space-around;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.list_box p {
+  padding: 1px 10px;
+}
+
+.list_box button {
+  width: 120px;
+  height: 40px;
+  margin: 0px 12px;
+  border: none;
+  border-radius: 22px;
+}
+
+.msg_error {
+  color: red;
+}
+.msg_success {
+  color: green;
+}
+
+.data_not_found {
+  width: 100%;
+  padding-left: 12px;
+  font-size: 0.9rem;
+  color: rgb(189, 189, 189);
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Management System</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div>
+        <h5>New Employees</h5>
+        <div class="input_box">
+            <div class="name_box">
+                <label for="name">Enter Name</label>
+                <input type="text" id="name" />
+            </div>
+            <div class="profession_box">
+                <label for="profession">Enter Profession</label>
+                <input type="text" id="profession" />
+            </div>
+            <div class="age_box">
+                <label for="age">Enter Age</label>
+                <input type="number" id="age" />
+            </div>
+        </div>
+        <button class="btn" onclick="handleSubmit()">Add User</button>
+        <div class="msg" id="msg_ref"></div>
+        <p class="added_emp">Added Emplyees</p>
+        <div class="list_container" id="container">
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
